@@ -14,7 +14,6 @@ source:
 
 build:
   number: 0
-  skip: match(python, "<3.10")
   script: ${{ PYTHON }} -m pip install . -vv
 
 requirements:
@@ -35,7 +34,7 @@ requirements:
     - python
     - pip
     - cppzmq
-    - cpptango >=10.1.1,<10.2.0a0
+    - cpptango >=10.3.2,<10.4.0a0
     - pybind11 >=3.0.1
     - numpy
     - omniorb-libs
@@ -88,7 +87,7 @@ tests:
         - pytest-forked
         - pytest-timeout
         - gevent
-        - tango-test =3.12
+        - tango-test =3.14
 
 about:
   summary: Python binding for the TANGO control system
