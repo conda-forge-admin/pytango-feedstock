@@ -275,6 +275,3 @@ Feedstock Maintainers
 * [@beenje](https://github.com/beenje/)
 * [@yamatveev](https://github.com/yamatveev/)
 
-
-<!-- dummy commit to enable rerendering -->
-
